@@ -1,0 +1,81 @@
+body, html {
+    background-color:green;
+    height: 100%;
+}
+
+.vui {
+    display:flex;
+    flex-direction: column;
+    max-width:1400px;
+    margin:0 auto;
+}
+
+h1{
+    font-family: Verdana;
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+
+}
+
+button {
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: white;
+    background-color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: -0.5em;
+    margin-bottom: 2em;
+    font-family: Verdana;
+}
+
+button:hover {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+
+h2 {
+    font-family: Verdana;
+    margin-top: -0.5em;
+    margin-bottom: 3em;
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: Verdana;
+    margin-top: -0.5em;
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+
+}
+
+#in {
+    font-family: Verdana;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 2em;
+    margin-top: -1em;
+}
+
+#out {
+    font-family: Verdana;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 2em;
+}
+
+.result {
+    margin:45px 0;
+    border:1px solid black;
+    padding:25px;
+}
